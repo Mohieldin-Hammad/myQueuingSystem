@@ -30,6 +30,8 @@
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.time_arrival_qeaue = new System.Windows.Forms.ListView();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.time_last_event = new System.Windows.Forms.TextBox();
             this.num_in_q = new System.Windows.Forms.TextBox();
@@ -54,6 +56,8 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.new_custs_button = new System.Windows.Forms.Button();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.report = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -61,7 +65,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(269, 106);
+            this.textBox1.Location = new System.Drawing.Point(229, 57);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 23);
             this.textBox1.TabIndex = 0;
@@ -69,6 +73,9 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.time_arrival_qeaue);
             this.panel1.Controls.Add(this.textBox11);
             this.panel1.Controls.Add(this.time_last_event);
             this.panel1.Controls.Add(this.num_in_q);
@@ -76,22 +83,40 @@
             this.panel1.Controls.Add(this.server_status);
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Location = new System.Drawing.Point(160, 102);
+            this.panel1.Location = new System.Drawing.Point(120, 53);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(401, 245);
+            this.panel1.Size = new System.Drawing.Size(453, 245);
             this.panel1.TabIndex = 3;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(234, 163);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(85, 23);
+            this.textBox13.TabIndex = 18;
+            this.textBox13.Text = "Times of arrival";
+            // 
+            // time_arrival_qeaue
+            // 
+            this.time_arrival_qeaue.Location = new System.Drawing.Point(234, 48);
+            this.time_arrival_qeaue.Name = "time_arrival_qeaue";
+            this.time_arrival_qeaue.Size = new System.Drawing.Size(64, 109);
+            this.time_arrival_qeaue.TabIndex = 17;
+            this.time_arrival_qeaue.UseCompatibleStateImageBehavior = false;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(150, 4);
+            this.textBox11.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox11.Location = new System.Drawing.Point(181, 3);
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(78, 23);
+            this.textBox11.Size = new System.Drawing.Size(78, 16);
             this.textBox11.TabIndex = 14;
             this.textBox11.Text = "System state";
             // 
             // time_last_event
             // 
-            this.time_last_event.Location = new System.Drawing.Point(234, 134);
+            this.time_last_event.Location = new System.Drawing.Point(325, 134);
             this.time_last_event.Name = "time_last_event";
             this.time_last_event.Size = new System.Drawing.Size(41, 23);
             this.time_last_event.TabIndex = 10;
@@ -109,7 +134,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(234, 163);
+            this.textBox4.Location = new System.Drawing.Point(325, 163);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(101, 23);
             this.textBox4.TabIndex = 8;
@@ -142,19 +167,20 @@
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.time_next_arrival_d);
             this.panel2.Controls.Add(this.time_next_deprtial_d);
             this.panel2.Controls.Add(this.sim_time);
             this.panel2.Controls.Add(this.textBox6);
             this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Location = new System.Drawing.Point(559, 102);
+            this.panel2.Location = new System.Drawing.Point(571, 53);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(389, 130);
+            this.panel2.Size = new System.Drawing.Size(395, 130);
             this.panel2.TabIndex = 4;
             // 
             // time_next_arrival_d
             // 
-            this.time_next_arrival_d.Location = new System.Drawing.Point(232, 35);
+            this.time_next_arrival_d.Location = new System.Drawing.Point(243, 29);
             this.time_next_arrival_d.Name = "time_next_arrival_d";
             this.time_next_arrival_d.Size = new System.Drawing.Size(54, 23);
             this.time_next_arrival_d.TabIndex = 13;
@@ -163,7 +189,7 @@
             // 
             // time_next_deprtial_d
             // 
-            this.time_next_deprtial_d.Location = new System.Drawing.Point(232, 54);
+            this.time_next_deprtial_d.Location = new System.Drawing.Point(243, 48);
             this.time_next_deprtial_d.Name = "time_next_deprtial_d";
             this.time_next_deprtial_d.Size = new System.Drawing.Size(54, 23);
             this.time_next_deprtial_d.TabIndex = 12;
@@ -172,7 +198,7 @@
             // 
             // sim_time
             // 
-            this.sim_time.Location = new System.Drawing.Point(71, 54);
+            this.sim_time.Location = new System.Drawing.Point(92, 48);
             this.sim_time.Name = "sim_time";
             this.sim_time.Size = new System.Drawing.Size(41, 23);
             this.sim_time.TabIndex = 11;
@@ -181,7 +207,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(232, 83);
+            this.textBox6.Location = new System.Drawing.Point(243, 77);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(54, 23);
             this.textBox6.TabIndex = 10;
@@ -189,7 +215,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(71, 83);
+            this.textBox5.Location = new System.Drawing.Point(92, 77);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(38, 23);
             this.textBox5.TabIndex = 9;
@@ -197,6 +223,7 @@
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.textBox12);
             this.panel3.Controls.Add(this.area_server_status);
             this.panel3.Controls.Add(this.area_num_in_q);
@@ -206,16 +233,18 @@
             this.panel3.Controls.Add(this.textBox9);
             this.panel3.Controls.Add(this.textBox8);
             this.panel3.Controls.Add(this.textBox7);
-            this.panel3.Location = new System.Drawing.Point(559, 229);
+            this.panel3.Location = new System.Drawing.Point(571, 180);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(389, 118);
+            this.panel3.Size = new System.Drawing.Size(395, 118);
             this.panel3.TabIndex = 5;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(141, 3);
+            this.textBox12.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Location = new System.Drawing.Point(155, 3);
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(107, 23);
+            this.textBox12.Size = new System.Drawing.Size(107, 16);
             this.textBox12.TabIndex = 15;
             this.textBox12.Text = "Statistical counters";
             // 
@@ -297,11 +326,33 @@
             this.new_custs_button.UseVisualStyleBackColor = true;
             this.new_custs_button.Click += new System.EventHandler(this.new_custs_button_Click);
             // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.Location = new System.Drawing.Point(461, 304);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(137, 16);
+            this.textBox14.TabIndex = 19;
+            this.textBox14.Text = "Computer representation";
+            // 
+            // report
+            // 
+            this.report.Location = new System.Drawing.Point(12, 53);
+            this.report.Name = "report";
+            this.report.Size = new System.Drawing.Size(75, 23);
+            this.report.TabIndex = 20;
+            this.report.Text = "Report";
+            this.report.UseVisualStyleBackColor = true;
+            this.report.Click += new System.EventHandler(this.report_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 450);
+            this.ClientSize = new System.Drawing.Size(980, 343);
+            this.Controls.Add(this.report);
+            this.Controls.Add(this.textBox14);
             this.Controls.Add(this.new_custs_button);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -309,7 +360,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -349,5 +399,9 @@
         private TextBox textBox11;
         private TextBox textBox12;
         private Button new_custs_button;
+        private ListView time_arrival_qeaue;
+        private TextBox textBox13;
+        private TextBox textBox14;
+        private Button report;
     }
 }

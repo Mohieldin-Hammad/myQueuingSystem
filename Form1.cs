@@ -61,8 +61,10 @@
                         depart();
                         break;
                 }
-
-
+            }
+            else
+            {
+                MessageBox.Show("Can't add more custmers, The system reached the maximum number of delayed required: " + num_delays_required);
             }
         }
 
@@ -108,6 +110,7 @@
                 num_in_q.Text = num_in_q_num.ToString();
 
                 time_arrival[num_in_q_num] = sim_time_num;
+                time_arrival_qeaue.Items.Add(sim_time.Text);
             }
             else
             {
@@ -150,6 +153,7 @@
                 time_next_event[2] = sim_time_num + expon(mean_service);
                 time_next_deprtial_d.Text = time_next_event[2].ToString();
 
+                time_arrival_qeaue.Items.RemoveAt(0);
                 for (int i = 1; i <= num_in_q_num; i++)
                 {
                     time_arrival[1] = time_arrival[i + 1];
@@ -164,14 +168,13 @@
         }
 
 
-
-
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void report_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Total customer use this server: " + num_custs_delayed_num + "\n\n" +
+                            "Average delay in queu in minutes d(n): " + total_of_delays_num / num_custs_delayed_num + "\n\n" +
+                            "Average number in queue q(n): " + area_num_in_q_num / sim_time_num + "\n\n" +
+                            "Server utilozation u(n): " + area_server_status_num / sim_time_num + "\n\n");
 
         }
-
-        
     }
 }
