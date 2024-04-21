@@ -1,0 +1,17 @@
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\bin\Debug\net6.0-windows\myQueuingSystem.exe
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\bin\Debug\net6.0-windows\myQueuingSystem.deps.json
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\bin\Debug\net6.0-windows\myQueuingSystem.runtimeconfig.json
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\bin\Debug\net6.0-windows\myQueuingSystem.dll
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\bin\Debug\net6.0-windows\myQueuingSystem.pdb
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.csproj.AssemblyReference.cache
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.Form1.resources
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.csproj.GenerateResource.cache
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.AssemblyInfoInputs.cache
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.AssemblyInfo.cs
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.csproj.CoreCompileInputs.cache
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.dll
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\refint\myQueuingSystem.dll
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.pdb
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\myQueuingSystem.genruntimeconfig.cache
+C:\Users\mohee\Desktop\Mansoura University\level 4\modeling\project\myQueuingSystem\obj\Debug\net6.0-windows\ref\myQueuingSystem.dll
